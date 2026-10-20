@@ -1,0 +1,6 @@
+{
+  "name": "TMDB 3D Cinema Carousel",
+  "description": "Carrossel 3D cilíndrico interativo de filmes e séries com a API do TMDB, trailers, categorias, busca e física de inércia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
