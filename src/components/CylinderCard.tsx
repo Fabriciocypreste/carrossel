@@ -88,6 +88,20 @@ export const CylinderCard: React.FC<CylinderCardProps> = ({
           loading="eager"
         />
 
+        {/* Top 10 Rank Numeral (Clean streaming style with outline stroke) */}
+        <div className="absolute -bottom-1 left-2 md:left-3 z-20 pointer-events-none flex items-end leading-none">
+          <span
+            className="font-heading font-black text-[68px] md:text-[88px] leading-none select-none tracking-tighter"
+            style={{
+              color: '#ffffff',
+              WebkitTextStroke: '2.5px #000000',
+              filter: 'drop-shadow(0 4px 12px rgba(0,0,0,0.95)) drop-shadow(0 2px 4px rgba(0,0,0,0.9))',
+            }}
+          >
+            {index + 1}
+          </span>
+        </div>
+
         {/* Minimal border stroke for clean edge definition (no glow) */}
         <div className="absolute inset-0 rounded-[22px] md:rounded-[26px] border border-white/10 pointer-events-none" />
       </div>
